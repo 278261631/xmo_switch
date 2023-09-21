@@ -1,0 +1,21 @@
+#startsetnum 9 ; Persistent set numbering added by ACP
+
+#switchon 1
+
+#WAITFOR 20
+
+#switchon 0
+
+#WAITFOR 20
+
+#switchoff 0
+
+#WAITFOR 20
+
+#switchoff 1
+
+#WAITFOR 20
+
+
+#INTERVAL 300                           ; 300 second exposures
+M 5
